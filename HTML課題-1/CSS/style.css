@@ -1,0 +1,214 @@
+html {
+	font-size: 62.5%;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+.container {
+	width: 980px;
+	margin: 0 auto;
+	min-height: 100%;
+	position: relative;
+}
+
+.header {
+	background-color: #f5b4b3;
+	height: 50px;
+	font-size: 1,5rem;
+}
+
+.logo_image {
+	width: 110px;
+	float: left;
+	margin: 0px;
+}
+
+.top_menu li {
+	float: right;
+	width: auto;
+}
+
+.top_menu li a {
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	padding: 15px;
+	font-size: 1.5rem;
+}
+
+.top_menu li a:hover {
+	text-decoration: underline;
+}
+
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	list-style: none;
+}
+
+.image_area {
+	width: 100%;
+}
+
+.side_menu {
+	width: 300px;
+	float: left;
+}
+
+.side_menu li {
+	background-color: #F5B4B3;
+	height: 6rem;
+	margin-bottom: 10px;
+}
+
+.side_menu li a {
+	font-size: 2rem;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 2rem;
+}
+
+.side_menu li:hover {
+	opacity: 0.6;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.banner {
+	margin-top: 20px;
+}
+
+.banner:hover {
+	opacity: 0.6;
+}
+
+.content {
+	width: 660px;
+	margin-left: 20px;
+	float: left;
+	font-size: 1.5rem;
+}
+
+.news {
+	height: 200px;
+	background-color: #FCE8E7;
+	padding: 20px;
+	overflow: scroll;
+	line-height: 2;
+}
+
+.wrapper  {
+	margin-top: 10px;
+	padding-bottom: 100px;
+}
+
+.footer {
+	background-color: #4D4D4D;
+	height: 100px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	display: table;
+}
+
+.footer p {
+	font-size: 1rem;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+
+}
+
+.banner_set {
+	margin-top: 10px;
+	display: table;
+}
+
+#img2:hover {
+	opacity: 0.6;
+}
+
+#img3:hover {
+	opacity: 0.6;
+}
+
+.banner_set p {
+	display: table-cell;
+}
+
+.banner_set p img {
+	width: 100%;
+}
+
+.side_menu .point {
+	background-color: #FCECEC;
+}
+
+.side_menu .point a {
+	color: #4D4D4D;
+}
+
+.form_area th {
+	width: 150px;
+	height: 7rem;
+	
+}
+
+.form_area td {
+	width: 480px;
+}
+
+.form_area input[type="text"] {
+	width: 480px;
+}
+
+.form_area input[type="textarea"] {
+	width: 480px;
+	height: 7rem;
+}
+
+.btn {
+	background-color: red;
+	margin-bottom: 200px;
+	position: relative;
+}
+
+.form_area input[type="submit"] {
+	height: 6rem;
+	width: 10rem;
+	font-size: 2rem;
+	background-color: #16deb9;
+	color: white;
+	position: absolute;
+	top: 30px;
+	left: 300px;
+}
+
+.btn:hover {
+	opacity: 0.6;
+}
+
+
+
+
+
+
+
+
